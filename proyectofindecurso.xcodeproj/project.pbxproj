@@ -14,6 +14,8 @@
 		F7E3042E2BE40793009E14C0 /* proyectofindecursoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3042D2BE40793009E14C0 /* proyectofindecursoTests.swift */; };
 		F7E304382BE40793009E14C0 /* proyectofindecursoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E304372BE40793009E14C0 /* proyectofindecursoUITests.swift */; };
 		F7E3043A2BE40793009E14C0 /* proyectofindecursoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E304392BE40793009E14C0 /* proyectofindecursoUITestsLaunchTests.swift */; };
+		F7E304472BE40B0A009E14C0 /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E304462BE40B09009E14C0 /* RestaurantDetailView.swift */; };
+		F7E304492BE413EA009E14C0 /* RecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E304482BE413EA009E14C0 /* RecipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F7E304332BE40793009E14C0 /* proyectofindecursoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = proyectofindecursoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7E304372BE40793009E14C0 /* proyectofindecursoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proyectofindecursoUITests.swift; sourceTree = "<group>"; };
 		F7E304392BE40793009E14C0 /* proyectofindecursoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = proyectofindecursoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7E304462BE40B09009E14C0 /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		F7E304482BE413EA009E14C0 /* RecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +102,8 @@
 				F7E3041E2BE40749009E14C0 /* ContentView.swift */,
 				F7E304202BE40792009E14C0 /* Assets.xcassets */,
 				F7E304222BE40792009E14C0 /* Preview Content */,
+				F7E304462BE40B09009E14C0 /* RestaurantDetailView.swift */,
+				F7E304482BE413EA009E14C0 /* RecipeView.swift */,
 			);
 			path = proyectofindecurso;
 			sourceTree = "<group>";
@@ -259,6 +265,8 @@
 			files = (
 				F7E3041F2BE40749009E14C0 /* ContentView.swift in Sources */,
 				F7E3041D2BE40749009E14C0 /* proyectofindecursoApp.swift in Sources */,
+				F7E304492BE413EA009E14C0 /* RecipeView.swift in Sources */,
+				F7E304472BE40B0A009E14C0 /* RestaurantDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
