@@ -47,6 +47,7 @@ struct ContentView: View {
         Recipe(name: "Causa Limeña", imageName: "causa", ingredients: ["Papas amarillas", "Ají amarillo", "Limón", "Aguacate", "Atún enlatado"], instructions: ["Instrucciones para preparar la causa limeña"], recipeDescription: "La causa limeña es un plato típico peruano que consiste en una especie de pastel frío hecho a base de papas amarillas, ají amarillo y limón, relleno de atún o pollo.", preparation: "Hervir las papas amarillas y luego hacerlas puré. Mezclar con ají amarillo y limón para formar la masa de la causa. Rellenar con atún y aguacate y refrigerar antes de servir.")
     ])
     @State private var showFavoritesOnly = false
+    @EnvironmentObject private var authModel: AuthViewModel
     
     var body: some View {
         NavigationView {

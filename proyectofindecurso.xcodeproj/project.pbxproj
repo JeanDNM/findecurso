@@ -26,6 +26,9 @@
 		F7E3045E2BF7BB2E009E14C0 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E3045D2BF7BB2E009E14C0 /* AuthViewModel.swift */; };
 		F7E304612BF7C769009E14C0 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = F7E304602BF7C769009E14C0 /* GoogleSignIn */; };
 		F7E304632BF7C769009E14C0 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F7E304622BF7C769009E14C0 /* GoogleSignInSwift */; };
+		F7E304652BF7CEB0009E14C0 /* MensajesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E304642BF7CEB0009E14C0 /* MensajesViewModel.swift */; };
+		F7E304672BF7CF84009E14C0 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E304662BF7CF84009E14C0 /* Model.swift */; };
+		F7E304692BF7CFE9009E14C0 /* Aplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E304682BF7CFE9009E14C0 /* Aplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +66,9 @@
 		F7E304592BF7BAD3009E14C0 /* SignUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
 		F7E3045B2BF7BAE4009E14C0 /* ForgotPasswordView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
 		F7E3045D2BF7BB2E009E14C0 /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		F7E304642BF7CEB0009E14C0 /* MensajesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MensajesViewModel.swift; sourceTree = "<group>"; };
+		F7E304662BF7CF84009E14C0 /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		F7E304682BF7CFE9009E14C0 /* Aplication.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Aplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +133,10 @@
 				F7E304482BE413EA009E14C0 /* RecipeView.swift */,
 				F7E3045D2BF7BB2E009E14C0 /* AuthViewModel.swift */,
 				F7E304592BF7BAD3009E14C0 /* SignUpView.swift */,
+				F7E304662BF7CF84009E14C0 /* Model.swift */,
 				F7E304572BF7B8A7009E14C0 /* HolderView.swift */,
+				F7E304642BF7CEB0009E14C0 /* MensajesViewModel.swift */,
+				F7E304682BF7CFE9009E14C0 /* Aplication.swift */,
 				F7E3045B2BF7BAE4009E14C0 /* ForgotPasswordView.swift */,
 			);
 			path = proyectofindecurso;
@@ -305,9 +314,12 @@
 				F7E3041D2BE40749009E14C0 /* proyectofindecursoApp.swift in Sources */,
 				F7E304582BF7B8A9009E14C0 /* HolderView.swift in Sources */,
 				F7E3045E2BF7BB2E009E14C0 /* AuthViewModel.swift in Sources */,
+				F7E304672BF7CF84009E14C0 /* Model.swift in Sources */,
+				F7E304652BF7CEB0009E14C0 /* MensajesViewModel.swift in Sources */,
 				F7E304492BE413EA009E14C0 /* RecipeView.swift in Sources */,
 				F7E3045A2BF7BAD3009E14C0 /* SignUpView.swift in Sources */,
 				F7E304472BE40B0A009E14C0 /* RestaurantDetailView.swift in Sources */,
+				F7E304692BF7CFE9009E14C0 /* Aplication.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
